@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<style>
+    .Name{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .Major {
+        text-align: center;
+        margin-top: -20px;
+        text-decoration: underline;
+    }
+    /* Home About Resume buttons */
+    .buttons {
+        text-align: center;
+        margin: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif
+    }
+    .home{
+        cursor: pointer;
+    }
+    .about{
+        cursor: pointer;
+    }
+    .resume{
+        cursor: pointer;
+    }
+    .image{
+        text-align: center;
+
+    }
+    .list{
+        font-size: large;
+        display: inline-block;
+        text-align: left;
+
+    }
+    /*to center the list*/
+    .center{
+        text-align: center;
+    }
+</style>
+<html lang="eng">
+    <head>
+        <title>smithrowley.github.io</title>
+    </head>
+
+    <body bgcolor=" #f2f2f2">
+
+            <!--NAME AND MAJOR-->
+            <div id = "Name and Major">
+            <h1 class = "Name"><strong>Saud Alqabi</strong></h1>
+            <h1 class = "Major"><strong>Computer Science</strong></h1>
+            <hr>
+            </div>
+    
+            <!--Home, About, Resume buttons-->
+            <div id = "info buttons" class = "buttons">
+                <button class = "home buttons" onclick="window.location.href = 'welcome.html'"><strong>Home</strong></button>
+                <button class = "about buttons" onclick = "window.location.href = 'aboutPage.html'"><strong>About</strong></button>
+                <button class = "resume buttons" onclick = "window.location.href = 'Saud Alqabi Resume.pdf'"><strong>Resume</strong></button>
+            </div>
+
+
+            <!-- Support picture-->
+            <div id = "bgImage" class = "image">
+                <img src = "CS BG.jpeg" alt = "courses" width = "auto" height = "400">
+            </div>
+
+            <!-- Bullet points of courses-->
+            <div id = "courses" class = "center">
+                <ul class = "list">
+                    <li>Introduction to Computer Science</li>
+                    <li>Data structures and Algorithms</li>
+                    <li>Systems and Network Programming</li>
+                    <li>Computer organization and Programming Systems</li>
+                    <li>Analysis of Algorithms</li>
+                    <li>Software Implementation</li>
+                    <li>Design Operating Systems</li>
+                    <li>Object Oriented Design</li>
+                    <li>Intro to Machine Learning(In-progress)</li>
+                    <li>Intro to Artificial Intelligence(In-progress)</li>
+                    <li>Web design (In-progress)</li>
+                    
+                </ul>
+            </div>
+    </body>
+</html>

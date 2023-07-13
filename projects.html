@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<style>
+    .Name{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .Major {
+        text-align: center;
+        margin-top: -20px;
+        text-decoration: underline;
+    }
+    /* Home About Resume buttons */
+    .buttons {
+        text-align: center;
+        margin: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif
+    }
+    .home{
+        cursor: pointer;
+    }
+    .about{
+        cursor: pointer;
+    }
+    .resume{
+        cursor: pointer;
+    }
+    .BBall{
+        text-align: center;
+    }
+    .Connect4{
+        text-align: center;
+    }
+    .pound2kg{
+        text-align: center;
+    }
+    .cardDealer{
+        text-align: center;
+    }
+    .hangman{
+        text-align: center;
+    }
+    .timeConverter{
+        text-align: center;
+    }
+</style>
+<html lang="eng">
+    <head>
+        <title>smithrowley.github.io</title>
+    </head>
+        
+    <body bgcolor=" #f2f2f2">
+         <!--NAME AND MAJOR-->
+         <div id = "Name and Major">
+            <h1 class = "Name"><strong>Saud Alqabi</strong></h1>
+            <h1 class = "Major"><strong>Computer Science</strong></h1>
+            <hr>
+            </div>
+    
+            <!--Home, About, Resume buttons-->
+            <div id = "info buttons" class = "buttons">
+                <button class = "home buttons" onclick="window.location.href = 'welcome.html'"><strong>Home</strong></button>
+                <button class = "about buttons" onclick = "window.location.href = 'aboutPage.html'"><strong>About</strong></button>
+                <button class = "resume buttons" onclick = "window.location.href = 'Saud Alqabi Resume.pdf'"><strong>Resume</strong></button>
+            </div>
+            
+            <!-- Projects header-->
+            <div id = "Projects title">
+                <h1 style = "text-align: center; text-decoration: underline;"><strong>Projects</strong></h1>
+            </div>
+
+            <!-- Bouncing Ball video-->
+            <div id = "Bouncing Ball" class = "BBall">
+                <video width = "auto" height="400" controls>
+                    <source src = "videos/BouncingBalls.py.mp4" type = "video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <p style="text-decoration: underline; font-size: large;"><strong>Title: Bouncing Balls</strong></p>
+                <p style = "font-size: large;"><strong>Description:</strong> Default balls moving to the top and bottom of the screen,<br> every time the mouse is clicked the balls change colors.</p>
+                <p style = "font-size: large;"><strong style = "text-decoration: underline;"> Language:</strong> Python</p>
+
+            </div>
+            <!-- Hangman-->
+            <div id = "hangman" class = "hangman">
+                <video width = "auto" height = "400" controls>
+                    <source src = "videos/Hangman.mp4" type = "video/mp4">
+                    Your browser does not support the video tag
+                </video>
+                <p style="text-decoration: underline; font-size: large;"><strong>Title: Hangman </strong></p>
+                <p style = "font-size: large;"><strong>Description:</strong> A game of Hangman that I have implemented for my data structures class. Uses an excel sheet to import all the words and store.</p>
+                <p style = "font-size: large;"><strong style = "text-decoration: underline;"> Language:</strong> Java</p>
+            </div>
+
+            <!-- Connect4 video-->
+            <div id = "Connect4" class = "Connect4">
+                <video width = "auto" height = "400" controls>
+                    <source src = "videos/Connect4.mp4" type = "video/mp4">
+                    Your browser does not support the video tag
+                </video>
+                <p style="text-decoration: underline; font-size: large;"><strong>Title: Connect 4 </strong></p>
+                <p style = "font-size: large;"><strong>Description:</strong> This is a connect 4 game that I have coded my freshman year of college in 2020 for my final project of introduction to computer science using python graphics.</p>
+                <p style = "font-size: large;"><strong style = "text-decoration: underline;"> Language:</strong> Python</p>
+            </div>
+            
+            <!-- Time Converter-->
+            <div id = "timeConverter" class = "timeConverter">
+                <video width = "auto" height="400" controls>
+                    <source src = "videos/converTime.mp4" type = "video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <p style="text-decoration: underline; font-size: large;"><strong>Title: Time Converter </strong></p>
+                <p style = "font-size: large;"><strong>Description:</strong> This is a simpel program that I have coded to take an input from a user and convert the time from seconds.</p>
+                <p style = "font-size: large;"><strong style = "text-decoration: underline;"> Language:</strong> C++</p>
+
+            </div>
+            <!-- Pound2KG video-->
+            <div id = "Pound2KG" class = "pound2kg">
+                <video width = "auto" height = "400" controls>
+                    <source src = "videos/Pound2KG.mp4" type = "video/mp4">
+                    Your browser does not support the video tag
+                </video>
+                <p style="text-decoration: underline; font-size: large;"><strong>Title: Pound2KG </strong></p>
+                <p style = "font-size: large;"><strong>Description:</strong> This is a visual weight converter (Pound to Kilograms) using python graphics.</p>
+                <p style = "font-size: large;"><strong style = "text-decoration: underline;"> Language:</strong> Python</p>
+            </div>
+
+            <!--Simplistic Card Dealer video-->
+            <div id = "--SimplisticCardDealer" class = "cardDealer">
+                <video width = "auto" height="400" controls>
+                    <source src = "videos/simplisticCardDealer.mp4" type = "video/mp4">
+                    Your browser does not support the video tag
+                </video>
+                <p style="text-decoration: underline; font-size: large;"><strong>Title: Simplistic Card Dealer </strong></p>
+                <p style = "font-size: large;"><strong>Description:</strong> A card dealer that would generate random cards using the <strong>random</strong> package in python</p>
+                <p style = "font-size: large;"><strong style = "text-decoration: underline;"> Language:</strong> Python</p>
+            </div>
+
+            <p style = "text-align: center; text-decoration: underline; font-size: large;">Note: These are just a few projects, I still have more projects but I couldnt fit them all in one page.</p>
+
+    </body>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--CSS-->
+<style>
+    .headers{
+        text-align: center;
+    }
+    .Name{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .Major {
+        text-align: center;
+        margin-top: -20px;
+        text-decoration: underline;
+    }
+    .linkedin{
+        text-align: center;
+        cursor: pointer;
+    }
+    .gmail{
+        text-align: center;
+        cursor: pointer;
+    }
+    /* Home About Resume buttons */
+    .buttons {
+        text-align: center;
+        margin: 20px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif
+    }
+    .home{
+        cursor: pointer;
+    }
+    .about{
+        cursor: pointer;
+    }
+    .resume{
+        cursor: pointer;
+    }
+    .projects{
+        cursor: pointer;
+    }
+    .activitiesButton{
+        cursor: pointer;
+    }
+    /*Images*/
+    .pictures{
+        text-align: center;
+    }
+    /*course description*/
+    .courseDescription{
+        text-align: center;
+        font-size: large;
+    }
+    .course{
+        text-align: center;
+        cursor: pointer;
+        position: relative; /*we are now ready to move the element*/
+        bottom:30px
+    }
+    .projectInfo{
+        text-align: center;
+    }
+    .projectPic{
+        text-align: center;
+        font-size: large;
+    }
+    .projects{
+        text-align: center;
+        position: relative;
+        bottom:20px
+    }
+    .activitiesPic{
+        text-align: center;
+    }
+    .activitiesInfo{
+        text-align: center;
+        font-size: large;
+    }
+  
+
+/*-------------------------------------------------------------------------*/
+</style>
+
+<html lang="eng">
+    <head>
+        <title>Saud Alqabi</title>
+    </head>
+
+
+    <!--BODY-->
+    <body bgcolor=" #f2f2f2">
+
+        <!--NAME AND MAJOR-->
+        <div id = "Name and Major and linkedin" class = "headers">
+        <h1 class = "Name"><strong>Saud Alqabi</strong></h1>
+        <h1 class = "Major"><strong>Computer Science</strong></h1> 
+        <hr>
+        <img style = "text-align: center;" class = "linkedin" onclick="window.location.href='https://www.linkedin.com/in/saud-alqabi/'"   src="images/linkedin.jpg" alt = "Browser not supported" width="auto" height="50">
+        <img style = "text-align: center;" class = "gmail" onclick = "window.location.href = 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=saud.sa132@gmail.com'" src = "images/gmail.jpg" alt = "Browser not supported" width = "auto" height = "50">
+        </div>
+
+        <!--Home, About, Resume buttons-->
+        <div id = "info buttons" class = "buttons">
+            <button class = "home buttons" onclick="window.location.href = 'welcome.html'"><strong>Home</strong></button>
+            <button class = "about buttons" onclick = "window.location.href = 'aboutPage.html'"><strong>About</strong></button>
+            <button class = "resume buttons" onclick = "window.location.href = 'Saud Alqabi Resume.pdf'"><strong>Resume</strong></button>
+        </div>
+
+        <!-- courses picture and details-->
+        <div id = "images" class = "pictures">
+            <img src="images/computercourses.png" alt="Computer science courses" width="400" height="200">
+            <p class = courseDescription>A list of the foundational computer science that I have completed.</p><br>
+            <button class = "buttons course" onclick = "window.location.href = 'courses.html'"><strong>Courses</strong></button>
+        </div>
+
+         <!-- projects picture-->
+         <div id = "Projects Description" class = "projectPic">
+            <img src="images/computer projects.png" alt = "Projects" width = "400" height="200">
+            <p class = "projectInfo"> A list of some computer projects that I have coded. <br> Languages may include: python,java,C++, and html.</p>
+            <button class = "buttons projects" onclick = "window.location.href = 'projects.html'"><strong>Projects</strong></button>
+        </div>
+
+        <!--Activities picture and description-->
+        <div id = "Activities" class = "activitiesPic">
+            <img src="images/activities.jpeg" alt = "Activities" width = "400" height="200">
+            <p class = "activitiesInfo"> Some other activites that I have taken interest in.</p>
+            <button class = "buttons activitiesButton" onclick="window.location.href = 'activities.html'"><strong>Activities</strong></button>
+        </div>
+    </body>
+
+</html>
